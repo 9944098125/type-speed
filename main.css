@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #00b0b0;
+    font-family: cursive;
+}
+.container {
+    background-color: white;
+    color: rgb(1, 1, 63);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 60%;
+    max-width: 80%;
+    height: 40%;
+    max-height: 60%;
+}
+.timer {
+    position: absolute;
+    top: 0.2rem;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 25px;
+}
+.quote-display {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.quote-input {
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 3px solid rgb(0, 249, 178);
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+.quote-input:focus {
+    border: 5px solid rgb(0, 249, 178);
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
